@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+' JSONContentManager is a library for retreiving values from json file given its key paths with the ability to pass custom values '
                        DESC
 
   s.homepage         = 'https://github.com/mozead1996/JSONContentManager'
@@ -28,9 +28,12 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/mozead1996/JSONContentManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0'
   s.source_files = 'JSONContentManager/Classes/**/*'
+  s.platforms = {
+      "ios": "12.0"
+  }
   
   # s.resource_bundles = {
   #   'JSONContentManager' => ['JSONContentManager/Assets/*.png']
