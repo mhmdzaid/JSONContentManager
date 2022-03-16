@@ -1,0 +1,16 @@
+PODS:
+  - JSONContentManager (0.1.0)
+
+DEPENDENCIES:
+  - JSONContentManager (from `../`)
+
+EXTERNAL SOURCES:
+  JSONContentManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSONContentManager: 9ff0c32976653d32bd7177dfa27e2071be5b40ee
+
+PODFILE CHECKSUM: c991cc13b7a9a30317aded8f1940d93d50edfb1e
+
+COCOAPODS: 1.11.2

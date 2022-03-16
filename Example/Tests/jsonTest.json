@@ -1,0 +1,25 @@
+{
+"Employees": [
+    {
+        "name": "Joe",
+        "role": "developer"
+    },
+    {
+        "name": "wu jan",
+        "role": "product owner"
+    },
+    {
+        "name": "nicky",
+        "role": "sales manager"
+    }],
+
+    "Product": {
+        "name": "coffee machine",
+        "specs": {
+         "height": 40,
+         "weight": "12kg"
+        },
+        "bill": "you paid {0} of {1}."
+    }
+}
+

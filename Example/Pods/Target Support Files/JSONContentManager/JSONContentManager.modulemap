@@ -1,0 +1,6 @@
+framework module JSONContentManager {
+  umbrella header "JSONContentManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
